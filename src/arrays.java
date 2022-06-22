@@ -12,5 +12,7 @@ public class arrays {
         for (int age : ages){
             System.out.println("Idade: " + age);
         } scanner.close();
+
+        System.out.println("Meu array tem: " + ages.length + " elementos");
     }
 }
